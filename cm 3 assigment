@@ -1,0 +1,10 @@
+import math
+
+# Define the radius
+radius = 5
+
+# Calculate the volume using the formula: V = (4/3) * π * r^3
+volume = (4/3) * math.pi * (radius**3)
+
+# Print the result
+print("The volume of the sphere with radius", radius, "is:", volume)
